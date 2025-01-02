@@ -52,6 +52,7 @@ def main():
               f' Детали ошибки: {e}')
 
 # Прямой вызов основной функции
-main()
-game_over()
-game_continue()
+if __name__ == "__main__":
+    main()
+    game_over()
+    game_continue()
