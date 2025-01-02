@@ -7,5 +7,5 @@ green : str = color_text_game.GREEN
 blue  : str = color_text_game.BLUE
 yellow: str = color_text_game.YELLOW
 
-def game_continue(g_continue: str = green+ 'Press ENTER to Continue...'.upper()): input(g_continue)
-def game_over(g_over: str = red+ 'Game Over'.upper()): print(g_over)
+def game_continue(g_continue: str =  'Press ENTER to Continue...'): input(green+g_continue.upper())
+def game_over(g_over: str = red+ 'Game Over'): print(red+g_over.upper())
